@@ -47,7 +47,6 @@ public class StartTestPage extends Locators{
 			passFild.sendKeys(pass);
 			Browser.find(vkButtonLogin).click();
 			Browser.swichToParent(parentWindow);
-			Browser.waitLoad(buttonShareVK);
 			//Browser.screenshot("Test" + testId);
 	}
 	

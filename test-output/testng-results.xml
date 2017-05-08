@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16974" started-at="2017-05-04T08:36:42Z" finished-at="2017-05-04T08:36:59Z">
+  <suite name="Default suite" duration-ms="61693" started-at="2017-05-08T05:10:30Z" finished-at="2017-05-08T05:11:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16974" started-at="2017-05-04T08:36:42Z" finished-at="2017-05-04T08:36:59Z">
+    <test name="Default test" duration-ms="61693" started-at="2017-05-08T05:10:30Z" finished-at="2017-05-08T05:11:32Z">
       <class name="online.TestCase">
-        <test-method status="PASS" signature="loginF()[pri:0, instance:online.TestCase@396a51ab]" name="loginF" duration-ms="16947" started-at="2017-05-04T11:36:42Z" finished-at="2017-05-04T11:36:59Z">
+        <test-method status="PASS" signature="loginShareFB()[pri:0, instance:online.TestCase@396a51ab]" name="loginShareFB" duration-ms="30011" started-at="2017-05-08T08:10:30Z" finished-at="2017-05-08T08:11:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginF -->
+        </test-method> <!-- loginShareFB -->
+        <test-method status="PASS" signature="loginShareVK()[pri:0, instance:online.TestCase@396a51ab]" name="loginShareVK" duration-ms="31647" started-at="2017-05-08T08:11:00Z" finished-at="2017-05-08T08:11:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginShareVK -->
       </class> <!-- online.TestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

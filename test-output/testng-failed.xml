@@ -5,7 +5,7 @@
     <classes>
       <class name="online.TestCase">
         <methods>
-          <include name="loginF"/>
+          <include name="loginShareFB"/>
         </methods>
       </class> <!-- online.TestCase -->
     </classes>

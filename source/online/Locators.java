@@ -23,19 +23,19 @@ public class Locators {
 	protected static final By vkButtonLogin = By.id("install_allow");
 	protected static final By buttonRunTest = By.className("page-test__btn-start-test");
 	//button share on our site 
-    protected static final By buttonShareFB = By.xpath(".//*[@id='megatestresult987']/div/div[2]/button[1]");
-    protected static final By frameShareOK = By.id("__okShare1");
-    protected static final By buttonShareVK = By.xpath("(//button[@type='button'])[20]");
-    protected static final By pictureOnShare = By.id("image_cont");
+	protected static final By buttonShareFB = By.xpath("(//button[@type='button'])[20]");
+	protected static final By frameShareOK = By.id("__okShare1");
+	protected static final By buttonShareVK = By.xpath("(//button[@type='button'])[20]");
+	protected static final By pictureOnShare = By.id("image_cont");
     // buttons share in open window
-    protected static final By postOnFB = By.id("u_0_k");
-    protected static final By postOnOK = By.tagName("button");
-    protected static final By postOnVK = By.id("post_button");
-    protected static final By buttonInFrameOK = By.id("mainDiv");
+	protected static final By postOnFB = By.id("u_0_k");
+	protected static final By postOnOK = By.tagName("button");
+	protected static final By postOnVK = By.id("post_button");
+	protected static final By buttonInFrameOK = By.id("mainDiv");
     // data for login 
-    protected static final String loginFB = "lapeta@megatest.online";
-    protected static final String passFB = "1qaz2wsx3edc";
-    protected static final String login = "+380734766240";
-    protected static final String pass = "1qaz2wsx";
+	protected static final String loginFB = "lapeta@megatest.online";
+	protected static final String passFB = "1qaz2wsx3edc";
+	protected static final String login = "+380734766240";
+	protected static final String pass = "1qaz2wsx";
     
 }
